@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
-  getEvents, postEvent, markAllRead, deleteAllEvents,
+  addEvent, markAllRead, deleteAllEvents,
 } from '../../services/slices/eventSlice';
 import { toggleModal } from '../../services/slices/modalSlice';
 import styles from './form.module.css';
@@ -17,8 +17,7 @@ function Form() {
   const onSubmit = (e) => {
     e.preventDefault();
     const date = new Date().toJSON();
-    dispatch(postEvent({ title: inputValue, date, unread: true }))
-      .then(() => dispatch(getEvents()));
+    dispatch(addEvent({ title: inputValue, date, unread: true }));
     setInputValue('');
   };
   const markAll = () => {
