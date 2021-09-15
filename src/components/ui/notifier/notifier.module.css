@@ -1,0 +1,35 @@
+.notifier__wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 20px 40px 0;
+    cursor: pointer;
+}
+
+.notifier {
+    width: 60px;
+    height: 60px;
+}
+
+.notifier__counter {
+    background-color: #ff192a;
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notifier__value{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 10px;
+    cursor: pointer;
+}

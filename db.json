@@ -1,0 +1,184 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Новое событие 1",
+      "date": "2021-09-15T12:22:34.640Z",
+      "unread": true
+    },
+    {
+      "id": 2,
+      "title": "Новое событие 2",
+      "date": "2021-09-10T12:22:34.640Z",
+      "unread": true
+    },
+    {
+      "id": 3,
+      "title": "Новое событие 3",
+      "date": "2021-09-12T12:22:34.640Z",
+      "unread": true
+    },
+    {
+      "id": 4,
+      "title": "Новое событие 4",
+      "date": "2021-09-11T12:22:34.640Z",
+      "unread": true
+    },
+    {
+      "title": "test",
+      "date": "2021-09-15T17:31:32.218Z",
+      "unread": true,
+      "id": 5
+    },
+    {
+      "title": "hgjhggjghjhg",
+      "date": "2021-09-15T17:33:18.384Z",
+      "unread": true,
+      "id": 6
+    },
+    {
+      "title": "ghgfgfhgffg",
+      "date": "2021-09-15T17:33:25.733Z",
+      "unread": true,
+      "id": 7
+    },
+    {
+      "title": "test1",
+      "date": "2021-09-15T17:33:45.292Z",
+      "unread": true,
+      "id": 8
+    },
+    {
+      "title": "dfgdfgf",
+      "date": "2021-09-15T17:34:27.895Z",
+      "unread": true,
+      "id": 9
+    },
+    {
+      "title": "43534345",
+      "date": "2021-09-15T17:34:29.873Z",
+      "unread": true,
+      "id": 10
+    },
+    {
+      "title": "fdghfhh",
+      "date": "2021-09-15T18:31:25.630Z",
+      "unread": true,
+      "id": 11
+    },
+    {
+      "title": "gdfgdgdfgd",
+      "date": "2021-09-15T18:36:57.316Z",
+      "unread": true,
+      "id": 12
+    },
+    {
+      "title": "Прекрасное событие!",
+      "date": "2021-09-15T18:37:22.295Z",
+      "unread": true,
+      "id": 13
+    },
+    {
+      "title": "hfgfgfhfg",
+      "date": "2021-09-15T18:42:39.255Z",
+      "unread": true,
+      "id": 14
+    },
+    {
+      "title": "gfdgfdgfd",
+      "date": "2021-09-15T18:42:56.894Z",
+      "unread": true,
+      "id": 15
+    },
+    {
+      "title": "gdfgd",
+      "date": "2021-09-15T18:43:38.553Z",
+      "unread": true,
+      "id": 16
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:55:35.216Z",
+      "unread": true,
+      "id": 17
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:55:40.211Z",
+      "unread": true,
+      "id": 18
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:55:45.211Z",
+      "unread": true,
+      "id": 19
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:55:50.211Z",
+      "unread": true,
+      "id": 20
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:55:55.210Z",
+      "unread": true,
+      "id": 21
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:00.219Z",
+      "unread": true,
+      "id": 22
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:05.214Z",
+      "unread": true,
+      "id": 23
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:10.225Z",
+      "unread": true,
+      "id": 24
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:15.213Z",
+      "unread": true,
+      "id": 25
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:20.224Z",
+      "unread": true,
+      "id": 26
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:25.218Z",
+      "unread": true,
+      "id": 27
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:30.213Z",
+      "unread": true,
+      "id": 28
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:35.218Z",
+      "unread": true,
+      "id": 29
+    },
+    {
+      "title": "Название",
+      "date": "2021-09-15T18:56:40.257Z",
+      "unread": true,
+      "id": 30
+    }
+  ]
+}
