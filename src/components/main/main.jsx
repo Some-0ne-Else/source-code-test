@@ -12,8 +12,10 @@ function Main() {
   React.useEffect(() => {
     dispatch(getEvents(data));
     const timer = setInterval(() => dispatch(
-      addEvent({ title: generateName(), date: new Date().toJSON(), unread: true }),
-    ), 2000);
+      addEvent({
+        title: generateName(), date: new Date().toJSON(), unread: true,
+      }),
+    ), 5000);
     return () => { clearInterval(timer); };
   }, []);
   const modalOpened = useSelector((store) => store.modal.modalOpened);

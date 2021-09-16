@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import {
   addEvent, markAllRead, deleteAllEvents,
 } from '../../services/slices/eventSlice';
@@ -9,15 +9,12 @@ import styles from './form.module.css';
 function Form() {
   const dispatch = useDispatch();
   const [inputValue, setInputValue] = React.useState('');
-  // eslint-disable-next-line prefer-spread
-  const maxId = useSelector((store) => Math.max.apply(
-    Math, store.event.data.map((obj) => obj.id),
-  ));
-  console.log(maxId);
   const onSubmit = (e) => {
     e.preventDefault();
     const date = new Date().toJSON();
-    dispatch(addEvent({ title: inputValue, date, unread: true }));
+    dispatch(addEvent({
+      title: inputValue, date, unread: true,
+    }));
     setInputValue('');
   };
   const markAll = () => {
@@ -35,6 +32,8 @@ function Form() {
         <input
           className={styles.form__input}
           type="text"
+          required
+          minLength="3"
           placeholder="Введите название события..."
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}

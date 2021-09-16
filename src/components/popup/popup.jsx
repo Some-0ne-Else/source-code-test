@@ -5,14 +5,14 @@ import styles from './popup.module.css';
 
 function Popup() {
   const events = useSelector((store) => store.event.data);
-  const reverseEvents = events.slice(-5).reverse();
+  const reversedEvents = events.slice(-5).reverse();
   return (
     <div className={styles.popup}>
       <div className={styles.popup__triangle} />
       <div className={styles.popup__container}>
-        {reverseEvents.map((event) => (
+        {reversedEvents.map((event, idx) => (
           <Event
-            key={event.id}
+            key={idx.toString()} // walkaround. id should come from backend
             title={event.title}
             date={event.date}
           />
